@@ -7,7 +7,7 @@ function handleButtonClick() {
 }
 //创建按钮点击函数；函数体中为按钮被点击时发生的事件.
 function init() {
-    var button = document.getElementById("addButton");
+    var button = document.getElementById("likeButton");
     console.log("533")
     button.onclick = c;
 }
@@ -18,7 +18,7 @@ function c(){
     let indexLibrary = null;
     const serverURL = "localhost://41080";
     const debug = false;
-    const modelPath = "https://cdn.jsdelivr.net/gh/hyokonbanwa/QualtricsAppResources2@928a190853149ecf300f583bfba8ac825062bf7c/Resources/Hiyori_2/hiyori.model3.json";
+    const modelPath = "https://cdn.jsdelivr.net/gh/l1031041272/Qualtrics-Resources@master/test-site/dist/Resources/Hiyori_2/Hiyori2.model3.json";
 
     /*ページが読み込まれたときに実行するJavaScriptをここに配置してください*/
 
