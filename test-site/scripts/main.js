@@ -44,8 +44,8 @@ function c(){
     const requiredResources = [
         "https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js",
         "https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js",
-        //"https://cdn.jsdelivr.net/gh/hyokonbanwa/QualtricsAppResources2@928a190853149ecf300f583bfba8ac825062bf7c/js/IndexLibrary.js",
         "https://cdn.jsdelivr.net/gh/edu-053/AgentInteractionResources@ddd90da306fdbaff6b5ad71d120cd2e7343d9a2d/js/IndexLibraryPerfectPrefarence2.js",
+        //"https://cdn.jsdelivr.net/gh/l1031041272/Qualtrics-Resources@master/test-site/dist/js/IndexLibrary.js",
     ];
     console.log("333")
     const loadScript = (idx) => {
