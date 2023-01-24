@@ -77,6 +77,7 @@ function c(){
         //indexLibrary = new IndexLibrary(debug, serverURL,modelPath, position);
         indexLibrary.onload();
         indexLibrary.App_set_point(0);
+        console.log("933")
     };
 
     console.log("スクリプト読み込み");
